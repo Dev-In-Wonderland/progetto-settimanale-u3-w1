@@ -14,7 +14,7 @@ function ModalComp(props) {
         variant="outline-light"
         onClick={handleShow}
       >
-        MORE +
+         +
       </Button>
       <Modal show={show} onHide={handleClose}>
         {!props.error && (
@@ -30,14 +30,14 @@ function ModalComp(props) {
               <div className="d-flex justify-content-between">
                 <p
                   className="ml-5"
-                  style={{ color: "red", fontWeight: "600" }}
+                  style={{ color: "red", fontWeight: "700" }}
                 >
                   {props.movie.imdbRating}{" "}
                 </p>
-                <p className="" style={{ color: "yellow", fontWeight: "700" }}>
+                <p className="" style={{ color: "aqua", fontWeight: "700" }}>
                   {props.movie.Released}{" "}
                 </p>
-                <p className="" style={{ color: "red", fontWeight: "700" }}>
+                <p className="" style={{ color: "violet", fontWeight: "700" }}>
                   {props.movie.Runtime}{" "}
                 </p>
                 <p

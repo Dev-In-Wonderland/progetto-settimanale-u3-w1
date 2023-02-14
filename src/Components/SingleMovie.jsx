@@ -80,6 +80,8 @@ class SingleMovie extends Component {
           }
         />
 
+
+
         {this.state.selected && (
           <div
             className="pt-3"
