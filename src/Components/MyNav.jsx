@@ -24,7 +24,7 @@ const MyNav = () => {
         <Navbar className="navbar-nav mr-auto">
           <Nav.Item className="nav-item">
             <Nav.Link className="nav-link font-weight-bold" href="#d">
-              Home <span className="sr-only"></span>
+              Home <span className="sr-only">(current)</span>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item className="nav-item active">

@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Spinner } from "react-bootstrap";
+import { Button, Spinner } from "react-bootstrap";
 import SingleMovie from "./SingleMovie";
 
 class MovieList extends Component {

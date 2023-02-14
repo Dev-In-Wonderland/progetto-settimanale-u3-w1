@@ -1,6 +1,6 @@
 import { Component } from "react";
-import { Image } from "react-bootstrap";
-import ModalComp from "../../ModalComp";
+import { Image, Spinner, Alert, Modal, Button } from "react-bootstrap";
+import ModalComp from "./ModalComp";
 
 class SingleMovie extends Component {
   state = {
@@ -84,13 +84,13 @@ class SingleMovie extends Component {
           <div
             className="pt-3"
             style={{
-              color: "white",
+              color: "grey",
             }}
           >
             {this.props.movie.Title}
             <div
               style={{
-                color: "orange",
+                color: "red",
               }}
             >
               {this.props.movie.Year}

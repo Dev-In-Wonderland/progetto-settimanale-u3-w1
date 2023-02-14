@@ -1,4 +1,4 @@
-import { Dropdown, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import MovieList from "./MovieList";
 import SingleMovie from "./SingleMovie";
 
@@ -12,6 +12,8 @@ const GenresComponent = () => {
         <div className="d-flex">
           <h2 className="mb-4">TV Shows</h2>
           
+        </div>
+        <div>
           <i className="fa fa-th-large icons"></i>
           <i className="fa fa-th icons"></i>
         </div>
