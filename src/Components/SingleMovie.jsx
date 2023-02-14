@@ -53,7 +53,7 @@ class SingleMovie extends Component {
         style={{
           borderBottom:
             this.state.selected && !this.state.hasError
-              ? "1px solid grey"
+              ? "5px solid black"
               : "0px",
         }}
       >
